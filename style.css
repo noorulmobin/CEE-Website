@@ -1,0 +1,494 @@
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+body{
+    margin: 0%;
+    }
+    /* this is navbar */
+    #main-nav{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 17vh;
+     
+    }
+    
+    #logo{
+      display: flex; 
+      color: black;
+      padding: 4%;
+      
+      } 
+    
+     #navbar{
+        font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    gap: 11%;
+    }
+      
+    
+    .container {
+        padding: 3%;
+        display: flex;
+        gap: 3%;
+    }
+    
+    .box1 {
+      width: 250px;
+      height: 50px; 
+      color: black;
+      display: flex;
+      border: 2px solid black;
+      justify-content: center;
+      align-items: center;
+      border-radius: 27px;
+    }
+     
+
+      @media screen and (max-width:768px){
+        #main-nav{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+        
+      #logo{
+        display: flex;
+        justify-content: space-between; 
+       
+        }
+      
+       #navbar{
+      display: flex;
+       align-items: center;
+       gap: 8%;
+      } 
+      
+        #navbar h2{
+          font-size:17px;
+        }
+
+        .container {
+            padding: 2%;
+            display: flex;
+            gap: 2%;
+        }
+        
+        .box1 {
+          width: 180px;
+          height: 40px; 
+          color: black;
+          display: flex;
+          border: 1px solid black;
+          justify-content: center;
+          align-items: center;
+          border-radius: 25px;
+        } 
+    }
+    /* hero section */
+
+    .herosection{
+      padding:4%;
+      font-size: 25px;
+      font-style: bold;
+      font-family: 'Poppins';font-size: 27px;
+      width: 39%;
+    }
+    
+
+    .booking {
+      display: flex;
+    
+  }
+  
+  .box2{
+    width: 300px;
+    height: 70px; 
+    color: black;
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+  } 
+
+
+  @media screen and (max-width:768px){
+    .herosection{
+      padding:4%;
+      font-size: 20px;
+      font-style: bold;
+    }
+    
+    p{
+      font-size: 20px;
+      font-style: normal;
+    }
+
+    .booking {
+      display: flex;
+    
+  }
+  
+  .box2{
+    width: 250px;
+    height: 50px; 
+    color: black;
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+  }
+
+  }
+  /* CEE Story */
+
+  .cee{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+  }
+    
+  #story{
+    font-family: 'Poppins';font-size: 27px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  font-size: 27px;
+  font-style: bold;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  padding: 50px 20px;
+  
+  }
+ 
+  #part2{
+    display: flex;
+    justify-content: space-between;
+  }
+
+.design{
+  padding: 5%;
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+}
+
+.circle {
+  width: 60px;
+  height: 60px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  background-color: white;
+}
+
+.values{
+  font-family: 'Poppins';font-size: 27px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: white;
+  font-size: 25px;
+ border-radius: 25px;
+  padding: 50px 20px;
+}
+
+@media screen and (max-width:768px){
+  cee{
+    display: flex;
+  }
+    
+  #story{
+    display: flex;
+    flex-direction: column;
+  font-size: 20px;
+  padding: 40px 15px;
+  
+  }
+
+.design{
+  padding: 5%;
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.values{
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+ border-radius: 25px;
+  padding: 40px 15px;
+}
+
+
+}
+
+
+/* our services */
+
+ #services{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins';font-size: 27px;
+}
+
+#para2{
+  font-family: 'Poppins';font-size: 27px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+} 
+
+ 
+#boxes{
+  padding: 3%;
+  display: flex;
+ gap: 3%;
+ font-family: 'Poppins';font-size: 27px;
+} 
+
+
+ .card{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+ align-items: center; 
+ text-align: center;
+ border: 1px solid black;
+padding: 2%;
+border-radius: 25px;
+font-size: 20px;
+border-radius: 25px; 
+} 
+
+@media screen and (max-width:768px){
+  #services{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+ 
+#para2 ,p{
+  font-size: 15px;
+}
+
+#boxes{
+ display: grid;
+ grid-template-columns:1fr 1fr;
+ padding: 4%;
+}
+
+ .card{
+  width: 300px;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+border-radius: 15px;
+word-wrap: wrap;
+} 
+}
+ 
+/* choose us */
+
+.chooseus{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.description{
+  font-family: 'Poppins';font-size: 27px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#industry{
+  display: grid;
+ grid-template-columns:1fr 1fr;
+ font-family: 'Poppins';font-size: 20px;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5%;
+}
+
+@media screen and (max-width:768px){
+  .chooseus{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .description{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #industry{
+    display: grid;
+   grid-template-columns:1fr 1fr;
+  }
+  
+  .box{
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+  }
+
+}
+
+/* Blog */
+
+.Blog{
+  font-family: 'Poppins';font-size: 27px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.images{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7%;
+}
+
+@media screen and (max-width:768px){
+  .Blog{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .images{
+    gap: 1%;
+  }
+  
+}
+
+/* client reviews */
+#review{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* logos */
+
+#logos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8%;
+  padding: 2%;
+}
+
+/* Quote  */
+.quote{
+  font-family: 'Poppins';font-size: 27px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#container{
+  display: flex;
+  gap: 10%;
+}
+.contact{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+ 
+ .design {
+  padding: 5%;
+  display: flex;
+  gap: 3%;
+}
+.details{
+  padding: 5%;
+  background-color: black;
+  gap: 5%;
+}
+
+.box3 {
+width: 550px;
+height: 50px; 
+color: white;
+display: flex;
+border: 2px solid white;
+justify-content: center;
+align-items: center;
+border-radius: 20px;
+}
+
+.box4 {
+  width: 550px;
+  height: 85px; 
+  color: white;
+  display: flex;
+  border: 2px solid white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  }
+
+  .box5 {
+    background-color: white;
+    width: 550px;
+    height: 55px; 
+    color:black;
+    display: flex;
+    border: 2px solid white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    }
+    
+  
+
+
+
